@@ -23,9 +23,9 @@ const UserModel = require('./models/Users')
 
 
 // get request
-app.get("/users", async (req, res)=>{
-    const users = await UserModel.find();
-    res.json(users)
+app.get("/", async (req, res)=>{
+    
+    res.send("hello world")
 })
 
 // get current user
