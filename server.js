@@ -14,7 +14,8 @@ app.use(express.json())
 
 const mongoose = require("mongoose")
 
-mongoose.connect(`mongodb://127.0.0.1:27017/zit`)
+// mongoose.connect(`mongodb://127.0.0.1:27017/zit`)
+mongoose.connect(`mongodb+srv://tayger:Logikar2000@digitalstore.geqedva.mongodb.net/?retryWrites=true&w=majority&appName=digitalStore`)
 
 
 // USER MODEL
